@@ -1,0 +1,67 @@
+@media screen and (max-width: 1015px) {
+    ._4styling {
+        position: relative;
+    }
+
+    ._4styling,
+    ._4styling::before {
+        background-color: #e30512;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .title {
+        position: static;
+    }
+
+    .img {
+        padding: 0;
+    }
+
+    .img img {
+        width: 30%;
+    }
+
+    .about {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 10%;
+        background-color: #e30512;
+        padding: 50px 20px;
+    }
+
+    .mail {
+        display: none;
+    }
+
+    .flex-sm {
+        display: flex;
+        align-items: center;
+    }
+
+    .visible a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    .visible {
+        font-weight: 700;
+        margin-top: 22px;
+        margin-left: auto;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .visible {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 610px){
+    .img img {
+        width: 50%;
+    }
+}
